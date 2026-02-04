@@ -2,6 +2,13 @@
 
 以下提供两种方案连接到 [OpenClaw](https://openclaw.ai) Gateway，分别是钉钉机器人和钉钉 DEAP Agent。
 
+## 快速导航
+
+| 方案 | 名称 | 详情 |
+|------|------|------|
+| 方案一 | 钉钉机器人集成 | [查看详情](#方案一钉钉机器人集成) |
+| 方案二 | 钉钉 DEAP Agent 集成 | [查看详情](#方案二钉钉-deap-agent-集成) |
+
 # 方案一：钉钉机器人集成
 将钉钉机器人连接到 [OpenClaw](https://openclaw.ai) Gateway，支持 AI Card 流式响应和会话管理。
 
@@ -300,7 +307,7 @@ openclaw gateway start
    | 参数 | 来源 | 说明 |
    |------|------|------|
    | apikey | 第二步获取 | DEAP 平台 API Key |
-   | apihost | 默认值 | 通常为 `127.0.0.1:18789` |
+   | apihost | 默认值 | 通常为 `127.0.0.1:18789`，在Windows环境下可能需要配置为 `localhost:18789` 才能正常工作 |
    | gatewayToken | 第一步获取 | Gateway 配置的认证令牌 |
 
    <img width="3426" height="1752" alt="配置 OpenClaw 技能参数" src="https://github.com/user-attachments/assets/bc725789-382f-41b5-bbdb-ba8f29923d5c" />
