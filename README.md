@@ -48,7 +48,10 @@ graph LR
 ### 1. 安装插件
 
 ```bash
-# 远程安装
+# 通过 npm 安装（推荐）
+openclaw plugins install @dingtalk-real-ai/dingtalk-connector
+
+# 或通过 Git 安装
 openclaw plugins install https://github.com/DingTalk-Real-AI/dingtalk-moltbot-connector.git
 
 # 升级插件
@@ -197,7 +200,7 @@ dingtalk-moltbot-connector/
 rm -rf ~/.clawdbot/extensions/dingtalk-connector
 rm -rf ~/.moltbot/extensions/dingtalk-connector
 rm -rf ~/.openclaw/extensions/dingtalk-connector
-openclaw plugins install https://github.com/DingTalk-Real-AI/dingtalk-moltbot-connector.git
+openclaw plugins install @dingtalk-real-ai/dingtalk-connector
 ```
 
 ### Q: 图片不显示
